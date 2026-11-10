@@ -45,9 +45,6 @@ Each recipe was run on the app's sample image and compared with the app's own pr
 
 ## Notes
 
-- `70s` and `avenue` need `VideoToolbox_70s.cube`, `VideoToolbox_Avenue_center.cube` and
-  `VideoToolbox_Avenue_edge.cube`. Those are derived from the app's own image files and are not
-  included in this repository.
 - `avenue` `lens` `pixellate` `dots` `blur` `zoomblur` `pinch` `stretch` are computed per pixel and
   render slowly on long or high-resolution videos.
 - `erosion`, `dilation` and `blur` are sized in pixels, as in the app, so they look subtler on HD
