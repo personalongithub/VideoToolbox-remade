@@ -1,7 +1,7 @@
 # VideoToolbox-remade
 
 ffmpeg recreations of the 25 "Video FX" presets from the old Video Toolbox iOS app, which no longer
-runs on current macOS. Each preset is one ffmpeg filter chain, wrapped in a small script.
+runs on macOS 27 or iOS 27. Each preset is one ffmpeg filter chain, wrapped in a small script.
 
 ## Usage
 
@@ -53,7 +53,7 @@ Each recipe was run on the app's sample image and compared with the app's own pr
 - `erosion`, `dilation` and `blur` are sized in pixels, as in the app, so they look subtler on HD
   footage than on a small preview.
 - The clock uses the system font by default. Set `VTFX_FONT` to a font file path to change it.
-- Tested with ffmpeg 6.1 on Linux (bash and PowerShell 7). Not yet tested on macOS or Windows.
+- Tested with ffmpeg 6.1 on Linux (bash and PowerShell 7), macOS, and Windows.
 
 ## Credits
 
